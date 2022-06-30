@@ -3,22 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="shortcut icon" href="inhalte/favicon.png">
+    <link rel="shortcut icon" href="Bilder/wespe_icon.png">
     <title>Wespen - Lars Reimann & Andri Weder LB02</title>
     <link rel="stylesheet" href="css/input-form.css">
 </head>
 
 <body id="bodyindex">
     <header>
-        <a href="index.html"><img class="navlogo" src="inhalte/logo.png" alt="StrayKids Logo"></a>
+        <a href="arten.html"><img class="navlogo" src="Bilder/wespe_icon.png" alt="Wespe"></a>
+
         <nav class="nav">
             <ul>
-                <li><a href="index.html" class="navbar-text">Home</a></li>
                 <li><a href="wassindwespen.html" class="navbar-text">Was sind Wespen</a></li>
                 <li><a href="arten.html" class="navbar-text">Arten</a></li>
-                <li><a href="songs.html" class="navbar-text">Songs</a></li>
                 <li><a href="gallery.html" class="navbar-text activenav">Gallery</a></li>
-                <li><a class="active" href="form.html" class="navbar-text" class="navbar-text">Newsletter</a></li>
+                <li><a class="active" href="form.html" class="navbar-text">Newsletter</a></li>
                 <li><a href="ueberuns.html">Über uns</a></li>
             </ul>
         </nav>
@@ -26,12 +25,21 @@
 
 
     <main>
-     
-        <form id="form" class="form">
-            <h2>Newsletter Anmeldung</h2>
+            <form id="form" class="form">
+
+                <h2>Newsletter Anmeldung</h2>
+            <div>
+                <p class="titel"> Geben Sie Ihre Anrede an:</p>
+                <input type="radio" id="mc" name="gender" value="male" required>
+                <label for="mc">Frau</label>
+                <input type="radio" id="vi" name="gender" value="female" required>
+                <label for="vi">Herr</label>
+                <input type="radio" id="ae" name="gender" value="they" required>
+                <label for="ae">Andere</label>
+            </div>
             <div class="form-control">
               <label for="firstname">Vorname</label>
-              <input type="text" id="firsname" placeholder="Vorname eingeben" />
+              <input type="text" id="firstname" placeholder="Vorname eingeben" />
               <small>Error message</small>
             </div>
             <div class="form-control">
@@ -44,7 +52,12 @@
               <input type="email" id="email" placeholder="Email eingeben" />
               <small>Error message</small>
             </div>
-        
+            <div class="form-control">
+                <label for="phone">Tel</label>
+                <input type="phone" id="phone" placeholder="Tel eingeben" />
+                <small>Error message</small>
+
+            </div>
             <button type="submit">Absenden</button>
           </form>
     </main>
@@ -56,4 +69,6 @@
         </p>
     </footer>
 </body>
+<script src="script/Validierung.js"></script>
 </html>
+

@@ -52,8 +52,8 @@ nav ul li a:hover {
     color: #eeaa00;
 }
 .navlogo {
-    width: 200px;
-    margin-top: 2.5em;
+    width: 150px;
+    margin-top: 2em;
 }
 
 
@@ -126,7 +126,7 @@ p {
     color: #eeaa00;
 }
 
-.membersname {
+.tiersname {
     font-weight: 800;
     font-size: 1.5em;
 }
@@ -163,17 +163,17 @@ img {
 
 /* MEMBERS */
 
-.member {
+.tier {
     display: flex;
     justify-items: flex-start;
     margin-bottom: 100px;
 }
 
-.membersphoto {
+.tiersphoto {
     width: 1500px;
 }
 
-.memberdetails {
+.tierdetails {
     margin-left: -1100px;
 }
 
@@ -219,8 +219,8 @@ img {
     align-items: flex-start;
 }
 
-.bandphoto {
-    width: 50%;
+.biene {
+    width: 55%;
 }
 
 .bandmaintext {
@@ -246,26 +246,6 @@ img {
     width: 73%;
 }
 
-/* SONGS */
-
-.songstext {
-    width: 80%;
-    line-height: 150%;
-}
-
-.noeasyalbum {
-    width: 5%;
-}
-
-.audio {
-    align-items: center;
-    margin-top: 2.5%;
-    margin-left: 5%;
-}
-
-.tracklist {
-    width: 90%;
-}
 
 /* GALLERY */
 
@@ -327,6 +307,5 @@ div.card{
     font-size: 1.5em;
     margin-bottom: -5px;
 }
-
 
 
