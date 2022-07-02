@@ -1,8 +1,4 @@
 
-
-/* ---------- AUFBAU ---------- */
-
-
 /* HEADER */
 
 header {
@@ -38,7 +34,6 @@ nav ul li a {
     margin: 0 10px;
 }
 
-
 nav ul li a,
 nav ul li a:after,
 nav ul li a:before {
@@ -55,7 +50,6 @@ nav ul li a:hover {
     width: 150px;
     margin-top: 2em;
 }
-
 
 body {
     background-color: black;
@@ -135,8 +129,6 @@ p {
 
 /* ---------- BILDFORMATIERUNG ---------- */
 
-
-
 img {
     width: 20%;
 }
@@ -145,7 +137,6 @@ img {
     display: flex;
     flex-direction: row;
 }
-
 
 /* ---------- LAYOUT ---------- */
 
@@ -307,5 +298,3 @@ div.card{
     font-size: 1.5em;
     margin-bottom: -5px;
 }
-
-

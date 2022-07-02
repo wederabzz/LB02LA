@@ -41,9 +41,7 @@ function checkPhone(input) {
     }
 }
 
-
-
-        // Check required fields
+// Check required fields
 function checkRequired(inputArr) {
     let isRequired = false;
     inputArr.forEach(function(input) {
@@ -75,9 +73,6 @@ function checkLength(input, min, max) {
     }
 }
 
-
-
-
 // Get fieldname
 function getFieldName(input) {
     return input.id.charAt(0).toUpperCase() + input.id.slice(1);
@@ -93,7 +88,6 @@ function validateForm(){
 
     }
 }
-
 
 // Event listeners
 form.addEventListener('submit', function(e) {
